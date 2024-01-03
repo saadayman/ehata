@@ -1,0 +1,62 @@
+/* 
+Fonts imports 
+*/
+/* Import Cairo font */
+/* Import Cairo Black font */
+@font-face {
+  font-family: "Cairo Black";
+  src: url("/assets/fonts/Cairo/Cairo-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Import Cairo Bold font */
+@font-face {
+  font-family: "Cairo Bold";
+  src: url("/assets/fonts/Cairo/Cairo-Bold.ttf") format("truetype");
+  /* Add additional font formats if necessary (e.g., woff, woff2) */
+  font-weight: normal;
+  font-style: normal;
+}
+/* Import Cairo Light font */
+@font-face {
+  font-family: "Cairo Light";
+  src: url("/assets/fonts/Cairo/Cairo-Light.ttf") format("truetype");
+  /* Add additional font formats if necessary (e.g., woff, woff2) */
+  font-weight: normal;
+  font-style: normal;
+}
+/* Import Cairo Regular font */
+@font-face {
+  font-family: "Cairo Regular";
+  src: url("/assets/fonts/Cairo/Cairo-Regular.ttf") format("truetype");
+  /* Add additional font formats if necessary (e.g., woff, woff2) */
+  font-weight: normal;
+  font-style: normal;
+}
+/* Import Cairo Semibold font */
+@font-face {
+  font-family: "Cairo Semibold";
+  src: url("/assets/fonts/Cairo/Cairo-SemiBold.ttf") format("truetype");
+  /* Add additional font formats if necessary (e.g., woff, woff2) */
+  font-weight: normal;
+  font-style: normal;
+}
+/* Import Montserrat font */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Cairo/montserrat.ttf") format("truetype");
+  /* Add additional font formats if necessary (e.g., woff, woff2) */
+  font-weight: normal;
+  font-style: normal;
+}
+.cario-semi-bold {
+  font-family: "Cairo Semibold", sans-serif;
+}
+
+.cario-bold {
+  font-family: "Cairo Bold", sans-serif;
+}
+
+.cario-regular {
+  font-family: "Cairo Regular", sans-serif;
+}
