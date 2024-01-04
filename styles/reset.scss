@@ -19,8 +19,14 @@ html,body{
  ul, menu, summary {
     list-style: none;
 }
+a,a:active{
+    color:black;
+    text-decoration: none !important;
+}
 
-
+a:hover{
+    color:black
+}
 
 
 
