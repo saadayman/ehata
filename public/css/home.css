@@ -28,20 +28,6 @@ NAVBAR STYLES
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 10%, rgb(255, 255, 255) 100%, transparent);
 }
 
-.navbar {
-  background-color: rgba(0, 0, 0, 0.102);
-}
-.navbar ul li {
-  margin: 0 1rem;
-}
-.navbar ul li a {
-  color: #000000 !important;
-}
-
-.navbar, .hero-section .main-text p {
-  font-family: "Cairo Semibold", sans-serif;
-}
-
 /*
 HERO SECTION STYLES
 */
