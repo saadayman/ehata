@@ -3,7 +3,6 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #ffffff;
   overflow-x: hidden;
 }
 
@@ -11,7 +10,8 @@ body {
   NAVBAR STYLES
   */
 .header {
-  background: url("/assets/images/how_are_we/DSC06934.png") center/cover no-repeat;
+  background: url("/assets/images/services/pngtree-photography-studio-with-several-light-stands-and-spotlights-in-a-dark-picture-image_3177609.png") center/cover no-repeat;
+  background-position-y: top;
   position: relative;
   z-index: 1;
 }
@@ -165,6 +165,7 @@ ask-for-service-section
 .who-we-are-section p {
   margin: 0 auto;
   max-width: 1039px;
+  font-size: 1.2rem;
   text-align: justify;
   line-height: 2.5rem !important;
 }
@@ -254,4 +255,8 @@ Footer
 }
 .ethics-section .info-icons {
   width: 40px;
+}
+
+.card-border-radius {
+  border-radius: 15px;
 }

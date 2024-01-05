@@ -3,15 +3,16 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #ffffff;
+  //   background-color: #ffffff;
   overflow-x: hidden;
 }
 /*
   NAVBAR STYLES
   */
 .header {
-  background: url("/assets/images/home_page/home_hero_page_bg.png") center/cover
-    no-repeat;
+  background: url("/assets/images/services/pngtree-photography-studio-with-several-light-stands-and-spotlights-in-a-dark-picture-image_3177609.png")
+    center/cover no-repeat;
+  background-position-y: top;
   position: relative;
   z-index: 1;
 }
@@ -25,7 +26,7 @@ body {
   z-index: -1;
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0.5) 10%,
+    rgba(255, 255, 255, 0.5) 90%,
     rgba(255, 255, 255, 1) 100%,
     transparent
   );
@@ -50,13 +51,10 @@ body {
 Services section styles
 */
 .services {
-  .fit-img-with-line {
-    width: 168px;
-  }
   img {
     width: 200px;
     margin: 0 auto;
-    // aspect-ratio: 27/16;
+    aspect-ratio: 27/16;
   }
 }
 .card-title {
@@ -96,7 +94,6 @@ Services section styles
     li {
       font-family: "Cairo Regular", sans-serif;
       margin-block: 1rem;
-      line-height: 2rem;
     }
   }
 }
@@ -227,4 +224,38 @@ Footer
   width: 1px;
   height: 100px;
   background-color: $gold-color;
+}
+
+.ethics-section {
+  ul {
+    li {
+      font-size: 1.5rem;
+      font-family: "Cairo Regular", sans-serif;
+      margin-block: 1rem;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .customStyle-card {
+    background-color: $cards-grey-bg-color;
+    border-radius: $card-border-radius;
+    text-align: center;
+
+    .ethics-img {
+      // width: 50px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .info-icons {
+    width: $info-icons-width;
+  }
+}
+.card-border-radius {
+  border-radius: $card-border-radius/2;
 }
