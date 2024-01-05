@@ -11,7 +11,7 @@ body {
   NAVBAR STYLES
   */
 .header {
-  background: url("/assets/images/how_are_we/DSC06934.png") center/cover no-repeat;
+  background: url("/assets/images/services/e447dad474.png") center/cover no-repeat;
   position: relative;
   z-index: 1;
 }
@@ -24,8 +24,6 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgb(255, 255, 255)), to(transparent));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 90%, rgb(255, 255, 255) 100%, transparent);
 }
 
 /*
@@ -165,6 +163,7 @@ ask-for-service-section
 .who-we-are-section p {
   margin: 0 auto;
   max-width: 1039px;
+  font-size: 1.2rem;
   text-align: justify;
   line-height: 2.5rem !important;
 }
@@ -254,4 +253,8 @@ Footer
 }
 .ethics-section .info-icons {
   width: 40px;
+}
+
+.card-border-radius {
+  border-radius: 15px;
 }
