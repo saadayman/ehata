@@ -18,6 +18,8 @@ html,body{
 /* Remove list styles (bullets/numbers) */
  ul, menu, summary {
     list-style: none;
+    padding:0;
+    margin: 0;
 }
 a,a:active{
     color:black;
