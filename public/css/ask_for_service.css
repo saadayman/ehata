@@ -11,7 +11,7 @@ body {
   NAVBAR STYLES
   */
 .header {
-  background: url("/assets/images/home_page/home_hero_page_bg.png") center/cover no-repeat;
+  background: url("/assets/images/ask_for_service/Black & White 1.png") center/cover no-repeat;
   position: relative;
   z-index: 1;
 }
@@ -24,8 +24,8 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgb(255, 255, 255)), to(transparent));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 10%, rgb(255, 255, 255) 100%, transparent);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(98%, rgba(255, 255, 255, 0.2)), color-stop(100%, rgb(255, 255, 255)), to(transparent));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 98%, rgb(255, 255, 255) 100%, transparent);
 }
 
 /*
@@ -51,12 +51,10 @@ body {
 /*
 Services section styles
 */
-.services .fit-img-with-line {
-  width: 168px;
-}
 .services img {
   width: 200px;
   margin: 0 auto;
+  aspect-ratio: 27/16;
 }
 
 .card-title {
@@ -67,7 +65,7 @@ Services section styles
 .custom-card-styles-top-section {
   border-radius: 30px;
   max-width: 400px;
-  min-height: 200px;
+  height: 400px;
   -webkit-box-flex: 0;
       -ms-flex: 0;
           flex: 0;
@@ -81,7 +79,6 @@ Services section styles
       -ms-flex-pack: center !important;
           justify-content: center !important;
   width: 100%;
-  z-index: 1;
   margin: 0 auto;
   background-color: #fbfafa;
 }
@@ -89,17 +86,15 @@ Services section styles
 .custom-card-styles {
   background-color: #f5f5f5;
   border-radius: 30px;
+  min-height: 526px !important;
   width: 90%;
   border: none;
   -webkit-box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 .list-card {
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  z-index: -1;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   max-width: 380px;
@@ -113,11 +108,10 @@ Services section styles
 .list-card ol li {
   font-family: "Cairo Regular", sans-serif;
   margin-block: 1rem;
-  line-height: 2rem;
 }
 
 .gold-color {
-  color: #b19e7f;
+  color: #b19e7f !important;
 }
 
 /*
@@ -171,7 +165,6 @@ ask-for-service-section
 .who-we-are-section p {
   margin: 0 auto;
   max-width: 1039px;
-  font-size: 1.2rem;
   text-align: justify;
   line-height: 2.5rem !important;
 }
@@ -224,4 +217,58 @@ Footer
   width: 1px;
   height: 100px;
   background-color: #b19e7f;
+}
+
+.ethics-section ul li {
+  font-size: 1.5rem;
+  font-family: "Cairo Regular", sans-serif;
+  margin-block: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+}
+.ethics-section .customStyle-card {
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  text-align: center;
+}
+.ethics-section .customStyle-card .ethics-img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+.ethics-section .info-icons {
+  width: 40px;
+}
+
+.submit-button-container .submit-img-container {
+  padding: 0 0.5rem;
+  border-left: 1px solid #b19e7f;
+}
+
+.form-check-label {
+  cursor: pointer;
+}
+
+.control-label {
+  font-size: 1.5rem;
+}
+
+.selected-item {
+  color: grey !important;
 }

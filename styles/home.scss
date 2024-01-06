@@ -66,29 +66,34 @@ Services section styles
 .custom-card-styles-top-section {
   border-radius: $card-border-radius;
   max-width: 400px;
-  height: 400px;
+  min-height: 200px;
   flex: 0;
   display: flex;
   align-items: center !important;
   justify-content: center !important;
   width: 100%;
+  z-index: 1;
   margin: 0 auto;
   background-color: $light-grey;
 }
 .custom-card-styles {
   background-color: $cards-grey-bg-color;
   border-radius: $card-border-radius;
-  min-height: 526px !important;
+  // min-height: 526px !important;
   width: 90%;
   border: none;
   box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
 }
 .list-card {
-  z-index: -1;
+  transition: all 0.5s ease-in-out;
+  // min-height: 0px !important;
+  // height: 0px !important;
+  // overflow: hidden;
+  // z-index: -1;
   transform: translateY(-10px);
   max-width: 380px;
   width: 100%;
-
   margin: 0 auto;
   border-radius: 0px 0px $card-border-radius $card-border-radius;
   ol {
@@ -228,3 +233,9 @@ Footer
   height: 100px;
   background-color: $gold-color;
 }
+
+// .hover-me:hover + .list-card,
+// .list-card:hover {
+//   height: 100% !important;
+//   // background-color: orange;
+// }
