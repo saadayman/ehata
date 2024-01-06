@@ -10,7 +10,8 @@ body {
   NAVBAR STYLES
   */
 .header {
-  // background: url('/assets/images/home_page/home_hero_page_bg.png') center/cover no-repeat;
+  background: url("/assets/images/ask_for_service/Black\ &\ White\ 1.png")
+    center/cover no-repeat;
   position: relative;
   z-index: 1;
 }
@@ -24,7 +25,7 @@ body {
   z-index: -1;
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0.5) 10%,
+    rgba(255, 255, 255, 0.2) 98%,
     rgba(255, 255, 255, 1) 100%,
     transparent
   );
@@ -96,8 +97,12 @@ Services section styles
   }
 }
 .gold-color {
-  color: $gold-color;
+  color: $gold-color !important;
 }
+
+/*
+ask-for-service-section
+*/
 .ask-for-service-section {
   background-color: $cards-grey-bg-color;
   width: 100%;
@@ -132,4 +137,137 @@ Services section styles
       }
     }
   }
+}
+
+// Who are we Section
+.who-we-are-section {
+  position: relative;
+  height: 100%;
+  .custom-card-for-who-are-we {
+    background-color: $cards-grey-bg-color;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 887px;
+    margin: 0 auto;
+    border-radius: 30px;
+  }
+  p {
+    margin: 0 auto;
+    max-width: 1039px;
+    // font-size: 1rem;
+    text-align: justify;
+    line-height: 2.5rem !important;
+  }
+  .absolute-img {
+    img {
+      position: absolute;
+      bottom: 0;
+    }
+    .left-bottom {
+      left: 0;
+    }
+    .right-bottom {
+      right: 0;
+    }
+  }
+  .img-size {
+    width: 70px;
+  }
+  .img-section {
+    img {
+      width: 400px;
+    }
+  }
+}
+
+.manager-speech {
+  p {
+    max-width: 1039px;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 2.5rem !important;
+  }
+}
+
+.ask-for-service-section {
+  min-height: 20vh;
+}
+
+/*
+Footer
+*/
+
+.footer-nav {
+  .logo,
+  .text-container {
+    margin: 0 auto;
+  }
+
+  ul {
+    li {
+      a {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+.footer {
+  background-color: $cards-grey-bg-color;
+  margin: 0;
+  padding-block: 1rem;
+}
+
+.golden-line {
+  width: 1px;
+  height: 100px;
+  background-color: $gold-color;
+}
+
+.ethics-section {
+  ul {
+    li {
+      font-size: 1.5rem;
+      font-family: "Cairo Regular", sans-serif;
+      margin-block: 1rem;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .customStyle-card {
+    background-color: $cards-grey-bg-color;
+    border-radius: $card-border-radius;
+    text-align: center;
+
+    .ethics-img {
+      // width: 50px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .info-icons {
+    width: $info-icons-width;
+  }
+}
+.submit-button-container {
+  .submit-img-container {
+    padding: 0 0.5rem;
+    border-left: 1px solid $gold-color;
+  }
+}
+.form-check-label {
+  cursor: pointer;
+}
+.control-label {
+  font-size: 1.5rem;
+}
+
+.selected-item {
+  color: grey !important;
 }
