@@ -16,9 +16,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="./public/css/home.css" />
     <link rel="stylesheet" href="./public/css/imports.css" />
     <link rel="stylesheet" href="./public/css/reset.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Ehata</title>
   </head>
@@ -73,7 +77,11 @@
       <section class="hero-section mt-5">
         <div class="container">
           <div class="row row-cols-12 text-center">
-            <div class="ehata-logo col-12">
+            <div
+              class="ehata-logo col-12"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img
                 class="img-fluid"
                 src="./assets/images/home_page/EHATAH - Logo-08.png"
@@ -82,12 +90,16 @@
                 style="width: 200px"
               />
             </div>
-            <div class="col-12 mt-2">
+            <div
+              class="col-12 mt-2"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <h2 class="text-center cario-semi-bold">
                 إحـــاطة لخدمات الأعمال
               </h2>
             </div>
-            <div class="col-12 mt-5">
+            <div class="col-12 mt-4">
               <h1 class="gold-color cario-semi-bold">خدماتنا</h1>
             </div>
           </div>
@@ -96,13 +108,18 @@
     </header>
 
     <section class="services">
-      <div class="container-fluid px-5 mt-5">
+      <div class="container-fluid px-4 px-md-5 mt-5">
         <div
           class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-1 row-cols-xl-4"
         >
           <!-- Card 1 -->
-          <div class="col mb-4">
-            <div class="d-flex flex-column h-100">
+          <div class="order-4 order-md-1 col mb-4">
+            <div
+              class="d-flex flex-column h-100"
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-delay="250"
+            >
               <div
                 class="card hover-me border-0 custom-card-styles-top-section shadow"
               >
@@ -113,7 +130,9 @@
                     alt="Card Image"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">إدارة الشؤون المالية والمحاسبية</h5>
+                    <h5 class="card-title cario-semi-bold">
+                      إدارة الشؤون المالية والمحاسبية
+                    </h5>
                   </div>
                 </a>
               </div>
@@ -136,8 +155,13 @@
           </div>
 
           <!-- Card 2 -->
-          <div class="col mb-4">
-            <div class="d-flex flex-column h-100">
+          <div class="order-3 order-md-2 col mb-4">
+            <div
+              class="d-flex flex-column h-100"
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-delay="150"
+            >
               <div
                 class="card hover-me custom-card-styles-top-section shadow border-0"
               >
@@ -148,7 +172,9 @@
                     alt="Card Image"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">إدارة الموارد البشرية</h5>
+                    <h5 class="card-title cario-semi-bold">
+                      إدارة الموارد البشرية
+                    </h5>
                   </div>
                 </a>
               </div>
@@ -167,8 +193,13 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="col mb-4">
-            <div class="d-flex flex-column h-100">
+          <div class="order-2 order-md-3 col mb-4">
+            <div
+              class="d-flex flex-column h-100"
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-delay="100"
+            >
               <div
                 class="card hover-me custom-card-styles-top-section shadow border-0"
               >
@@ -179,7 +210,7 @@
                     alt="Card Image"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">الخدمات الحكومية</h5>
+                    <h5 class="card-title cario-semi-bold">الخدمات الحكومية</h5>
                   </div>
                 </a>
               </div>
@@ -219,8 +250,13 @@
           </div>
 
           <!-- Card 4 -->
-          <div class="col mb-4">
-            <div class="d-flex flex-column h-100">
+          <div class="order-1 order-md-4 col mb-4">
+            <div
+              class="d-flex flex-column h-100"
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-delay="50"
+            >
               <div
                 class="card hover-me custom-card-styles-top-section shadow border-0"
               >
@@ -231,7 +267,7 @@
                     alt="Card Image"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">التصوير والتصميم</h5>
+                    <h5 class="card-title cario-semi-bold">التصوير والتصميم</h5>
                   </div>
                 </a>
               </div>
@@ -255,7 +291,7 @@
 
     <section class="who-we-are-section mb-4 mb-md-0 mt-5">
       <div class="container-fluid px-5">
-        <div class="row">
+        <div class="row" data-aos="zoom-in">
           <h1 class="gold-color text-center cario-bold my-3">إحــاطة</h1>
           <p class="gold-color cario-semi-bold px-md-5">
             هــو فريــق عمـــل متكامــل بخبـــرات وكفـاءات عاليــة يعمــل علـى
@@ -266,10 +302,8 @@
             الأعمال التجارية
           </p>
         </div>
-        <div
-          class="row row-cols-1 row-cols-md-1 row-cols-sm-1 row-cols-lg-1 row-cols-xl-2 g-4 mt-3"
-        >
-          <div class="col">
+        <div class="row gy-4 mt-3">
+          <div class="col-12 col-md-6">
             <div class="card h-100 border-0">
               <h1 class="card-title gold-color text-center cario-bold mb-4">
                 رؤيتنا
@@ -280,6 +314,7 @@
                     class="col-md-2 d-flex justify-content-center align-items-center align-self-center"
                   >
                     <img
+                      data-aos="fade-right"
                       class="img-fluid img-size"
                       src="/assets/images/home_page/mission.png"
                       alt="mission.png"
@@ -302,7 +337,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6">
             <div class="card h-100 border-0">
               <h1 class="card-title gold-color text-center cario-bold mb-4">
                 رسالتنا
@@ -314,6 +349,7 @@
                     class="col-md-2 d-flex justify-content-center align-items-center align-self-center"
                   >
                     <img
+                      data-aos="fade-right"
                       class="img-fluid img-size"
                       src="/assets/images/home_page/contract.png"
                       alt="contract.png"
@@ -339,25 +375,28 @@
           </div>
         </div>
       </div>
-      <div class="row mt-2">
-        <div
-          class="img-section justify-content-between d-none d-md-flex d-lg-flex"
-        >
-          <img
-            class="img-fluid"
-            src="/assets/images/home_page/caligraphy-text-right.png"
-            alt=""
-          />
+    </section>
+    <section class="d-none d-md-block">
+      <div class="container-fluid p-0">
+        <div class="row mt-2">
+          <div
+            class="img-section justify-content-between d-none d-md-flex d-lg-flex"
+          >
+            <img
+              class="img-fluid"
+              src="/assets/images/home_page/caligraphy-text-right.png"
+              alt=""
+            />
 
-          <img
-            class="img-fluid"
-            src="/assets/images/home_page/caligraphy-text-left.png"
-            alt=""
-          />
+            <img
+              class="img-fluid"
+              src="/assets/images/home_page/caligraphy-text-left.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>
-
     <section class="ask-for-service-section">
       <div
         class="container d-flex justify-content-center align-items-center py-4"
@@ -478,5 +517,8 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

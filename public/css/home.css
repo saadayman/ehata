@@ -1,8 +1,6 @@
 body {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   background-color: #ffffff;
   overflow-x: hidden;
 }
@@ -171,7 +169,6 @@ ask-for-service-section
 .who-we-are-section p {
   margin: 0 auto;
   max-width: 1039px;
-  font-size: 1.2rem;
   text-align: justify;
   line-height: 2.5rem !important;
 }
@@ -187,9 +184,6 @@ ask-for-service-section
 }
 .who-we-are-section .img-size {
   width: 70px;
-}
-.who-we-are-section .img-section img {
-  width: 400px;
 }
 
 .manager-speech p {
@@ -224,4 +218,8 @@ Footer
   width: 1px;
   height: 100px;
   background-color: #b19e7f;
+}
+
+.img-section img {
+  max-width: 400px;
 }

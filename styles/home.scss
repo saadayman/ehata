@@ -2,7 +2,7 @@
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  // box-sizing: border-box;
   background-color: #ffffff;
   overflow-x: hidden;
 }
@@ -165,7 +165,7 @@ ask-for-service-section
   p {
     margin: 0 auto;
     max-width: 1039px;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
     text-align: justify;
     line-height: 2.5rem !important;
   }
@@ -183,11 +183,6 @@ ask-for-service-section
   }
   .img-size {
     width: 70px;
-  }
-  .img-section {
-    img {
-      width: 400px;
-    }
   }
 }
 
@@ -233,7 +228,11 @@ Footer
   height: 100px;
   background-color: $gold-color;
 }
-
+.img-section {
+  img {
+    max-width: 400px;
+  }
+}
 // .hover-me:hover + .list-card,
 // .list-card:hover {
 //   height: 100% !important;
